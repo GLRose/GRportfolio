@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #27272d;
+  background-image: url("mountain-scene.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  display: flex;
+  margin-bottom: 15px;
+  padding: 2rem 2rem;
+}
+
+.logo p {
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 59px;
+  color: #ffffff;
+}
+
+.nav-bar {
+  display: flex;
+  background: #4a5878;
+  height: 6rem;
+  box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+
+.nav-bar li {
+  font-size: 4rem;
+  list-style-type: none;
+  margin-right: 2.5rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.welcome-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 5rem;
+  padding-left: 3rem;
+}
+
+.welcome-item {
+  font-size: 4rem;
+  color: #ffffff;
+  line-height: 10rem;
+}
+
+.greeting {
+  font-weight: 700;
+}
+
+.official-title {
+  font-weight: 700;
+}
+
+.outer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-right: 3rem;
+  margin-top: 100px;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.profile-pic {
+  padding-right: 5rem;
+}
+
+@media (max-width: 768px) {
+  .nav-bar li {
+    font-size: 3.6rem;
+    list-style-type: none;
+    justify-content: center;
+  }
+  .welcome-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .welcome-item {
+    font-size: 2.5rem;
+    line-height: 10rem;
+  }
+
+  .outer-container {
+    margin-top: 80px;
+    justify-content: center;
+  }
+}
