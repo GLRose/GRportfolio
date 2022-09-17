@@ -76,6 +76,7 @@ body {
   height: 30.3rem;
 }
 
+/* mobile  */
 @media (max-width: 768px) {
   .project-item {
     height: 15rem;
