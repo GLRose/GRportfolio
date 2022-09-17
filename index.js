@@ -1,24 +1,32 @@
 let images = [
-    "./images/Breakfast.png",
-    "./images/TypingGame.png",
-    "./images/WebScraper.png",
-  ];
+  "./images/breakfast.png",
+  "./images/typing-game.png",
+  "./images/web-scraper.png",
+];
 
-  var changeImg = document.getElementById("imgClickAndChange");
-  var count = 0;
+let links = [
+  "https://glrose.github.io/breakfast-picker/",
+  "https://github.com/GLRose/typingGame",
+  "https://github.com/GLRose/Runescape-Top100-Scraper"
+];
 
-  function next() {
-    if (count >= images.length - 1) count = -1;
-    count++;
-    return setImg();
-  }
-  
-  function prev() {
-    if (count <= 0) count = images.length;
-    count--;
-    return setImg();
-  }
+var changeLink = document.getElementById("imgLink");
+var changeImg = document.getElementById("imgClickAndChange");
+var count = 0;
 
-  function setImg() {
-    return changeImg.src = images[count];
-  }
+function next() {
+  if (count >= images.length - 1) count = -1;
+  count++;
+  return setCardValues();
+}
+
+function prev() {
+  if (count <= 0) count = images.length;
+  count--;
+  return setCardValues();
+}
+
+function setCardValues() {
+  changeLink.href = links[count];
+  return changeImg.src = images[count];
+}
