@@ -88,10 +88,12 @@ body {
 }
 
 @media (max-width: 768px) {
+  .nav-bar {
+    justify-content: center;
+  }
   .nav-bar li {
     font-size: 3.6rem;
     list-style-type: none;
-    justify-content: center;
   }
   .welcome-wrapper {
     flex-wrap: wrap;
