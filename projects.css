@@ -67,6 +67,15 @@ body {
   cursor: pointer;
 }
 
+.tree-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.trees {
+  height: 30.3rem;
+}
+
 @media (max-width: 768px) {
   .project-item {
     height: 15rem;
@@ -76,5 +85,11 @@ body {
   }
   .right img {
     height: 6rem;
+  }
+  .tree-container {
+    margin-top: 20rem;
+  }
+  .trees {
+    height: 18rem;
   }
 }
