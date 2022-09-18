@@ -1,3 +1,9 @@
+let titles = [
+  "Breakfast Menu",
+  "C++ Typing Game",
+  "Web Scraper",
+]
+
 let images = [
   "./images/breakfast.png",
   "./images/typing-game.png",
@@ -10,6 +16,7 @@ let links = [
   "https://github.com/GLRose/Runescape-Top100-Scraper"
 ];
 
+var changeProjectTitles = document.getElementById("project-titles");
 var changeLink = document.getElementById("imgLink");
 var changeImg = document.getElementById("imgClickAndChange");
 var count = 0;
@@ -27,6 +34,8 @@ function prev() {
 }
 
 function setCardValues() {
+
+  changeProjectTitles.innerHTML = titles[count];
   changeLink.href = links[count];
   return changeImg.src = images[count];
 }

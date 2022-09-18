@@ -70,11 +70,15 @@ body {
 
 .outer-container {
   display: flex;
+  justify-content: space-between;
+  margin-top: -1rem;
+}
+
+.icon-wrapper {
+  display: flex;
   flex-direction: row;
   align-items: flex-end;
-  justify-content: flex-end;
   margin-right: 3rem;
-  margin-top: 100px;
 }
 
 .icon-container {
@@ -107,5 +111,9 @@ body {
   .outer-container {
     margin-top: 80px;
     justify-content: center;
+  }
+
+  .glacier-mountain {
+    display: none;
   }
 }
