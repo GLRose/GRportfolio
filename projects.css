@@ -89,10 +89,29 @@ body {
 
 .mountain {
   height: 27rem;
+  margin-right: 1rem;
+}
+
+.home-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -5rem;
+}
+
+.back-to-home {
+  background-color: #27272d;
+  color: #ffff;
+  font-size: 3rem;
+  border-color: #4a5878;
+  cursor: pointer;
 }
 
 /* mobile  */
 @media (max-width: 768px) {
+  .project-card {
+    touch-action: manipulate;
+    margin-bottom: 10rem;
+  }
   .project-item {
     height: 15rem;
   }
@@ -112,5 +131,10 @@ body {
   .mountain {
     height: 18rem;
     margin-top: 10rem;
+  }
+
+  .home-button-container {
+    justify-content: flex-end;
+    margin-right: 1rem;
   }
 }
