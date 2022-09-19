@@ -100,20 +100,31 @@ body {
     list-style-type: none;
   }
   .welcome-wrapper {
-    flex-wrap: wrap;
     justify-content: center;
   }
   .welcome-item {
     font-size: 2.5rem;
-    line-height: 10rem;
+    line-height: 8rem;
   }
 
   .outer-container {
-    margin-top: 80px;
-    justify-content: center;
+    justify-content: space-between;
+  }
+
+  .profile-pic {
+    padding-right: 1rem;
+  }
+  .icon-container {
+    gap: 2rem;
   }
 
   .glacier-mountain {
-    display: none;
+    /* display: none; */
+    width: 20rem;
+    margin-top: 28rem;
+  }
+  .profile-pic {
+    width: 10rem;
+    margin-top: 28rem;
   }
 }
