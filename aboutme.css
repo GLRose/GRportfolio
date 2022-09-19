@@ -34,26 +34,45 @@ body {
 
 .about-me-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
 }
 
 .essay {
   color: #ffff;
-  font-size: 2rem;
-  padding-top: 8rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  font-size: 1.8rem;
   max-width: 100rem;
   line-height: 6rem;
-  font-weight: 700;
+  font-weight: 500;
+}
+
+.home-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.back-to-home {
+  background-color: #27272d;
+  color: #ffff;
+  font-size: 3rem;
+  border-color: #4a5878;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
   .essay {
-    color: #ffff;
-    /* font-size: 2rem; */
-    width: 80rem;
-    line-height: 3rem;
-    font-weight: 700;
+    font-size: 1.8rem;
+    max-width: 40rem;
+    line-height: 6rem;
+    font-weight: 500;
+    padding: 4rem 4rem;
+  }
+
+  .back-to-home {
+    text-decoration: overline;
+    padding-top: 1rem;
   }
 }
