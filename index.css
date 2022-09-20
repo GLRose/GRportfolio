@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 body {
@@ -37,7 +38,7 @@ body {
 .nav-bar li {
   font-size: 4rem;
   list-style-type: none;
-  margin-right: 2.5rem;
+  padding-right: 1%;
 }
 
 .nav-bar a {
@@ -48,20 +49,14 @@ body {
 .welcome-wrapper {
   display: flex;
   justify-content: flex-start;
-  flex-wrap: wrap;
   flex-direction: column;
-  margin-top: 5rem;
-  padding-left: 3rem;
+  padding: 7.1rem 0rem 0rem 3rem;
 }
 
 .welcome-item {
   font-size: 4rem;
   color: #ffffff;
   line-height: 10rem;
-}
-
-.greeting {
-  font-weight: 700;
 }
 
 .official-title {
@@ -71,14 +66,12 @@ body {
 .outer-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem;
 }
 
 .icon-wrapper {
   display: flex;
-  flex-direction: row;
   align-items: flex-end;
-  margin-right: 3rem;
+  padding: 10em;
 }
 
 .icon-container {
@@ -91,40 +84,34 @@ body {
   padding-right: 5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 810px) {
   .nav-bar {
-    justify-content: center;
+    justify-content: space-evenly;
   }
   .nav-bar li {
     font-size: 3.6rem;
     list-style-type: none;
   }
-  .welcome-wrapper {
-    justify-content: center;
-  }
+
   .welcome-item {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     line-height: 8rem;
   }
 
-  .outer-container {
-    justify-content: space-between;
-  }
-
   .profile-pic {
-    padding-right: 1rem;
-  }
-  .icon-container {
-    gap: 2rem;
+    margin-right: 2rem;
   }
 
   .glacier-mountain {
-    /* display: none; */
-    width: 20rem;
-    margin-top: 28rem;
+    display: none;
   }
-  .profile-pic {
-    width: 10rem;
-    margin-top: 28rem;
+
+  .outer-container {
+    justify-content: center;
+  }
+
+  .icon-wrapper {
+    align-items: flex-end;
+    padding: 10%;
   }
 }
