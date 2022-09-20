@@ -37,14 +37,11 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 2rem;
-  gap: 1rem;
 }
 
 .essay {
   color: #ffff;
-  font-size: 1.8rem;
-  max-width: 100rem;
-  line-height: 6rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 
@@ -65,14 +62,12 @@ body {
 @media (max-width: 768px) {
   .essay {
     font-size: 1.8rem;
-    max-width: 40rem;
-    line-height: 6rem;
+    line-height: 3rem;
     font-weight: 500;
-    padding: 4rem 4rem;
+    padding: 2rem 2rem 2rem 2rem;
   }
 
   .back-to-home {
     text-decoration: overline;
-    padding-top: 1rem;
   }
 }
