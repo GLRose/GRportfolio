@@ -1,5 +1,5 @@
 let titles = [
-  "Breakfast Menu",
+  "React.js Breakfast Menu",
   "Node.js & Websockets Chat",
   "Web Scraper",
 ]
