@@ -1,6 +1,6 @@
 let titles = [
   "Breakfast Menu",
-  "C++ Typing Game",
+  "Node.js & Websockets Chat",
   "Web Scraper",
 ]
 
@@ -12,7 +12,7 @@ let images = [
 
 let links = [
   "https://glrose.github.io/breakfast-picker/",
-  "https://github.com/GLRose/typingGame",
+  "https://github.com/GLRose/CRUX",
   "https://github.com/GLRose/Runescape-Top100-Scraper"
 ];
 
