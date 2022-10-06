@@ -12,7 +12,7 @@ let images = [
 
 let links = [
   "https://glrose.github.io/breakfast-picker/",
-  "https://nutrition-client.herokuapp.com/",
+  "https://upc-nutrition-client.herokuapp.com/",
   "https://github.com/GLRose/Runescape-Top100-Scraper"
 ];
 
