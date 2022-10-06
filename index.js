@@ -1,6 +1,6 @@
 let titles = [
   "React.js Breakfast Menu",
-  "Node.js & Websockets Chat",
+  "UPC Nutrition",
   "Web Scraper",
 ]
 
@@ -12,7 +12,7 @@ let images = [
 
 let links = [
   "https://glrose.github.io/breakfast-picker/",
-  "https://github.com/GLRose/CRUX",
+  "https://nutrition-client.herokuapp.com/",
   "https://github.com/GLRose/Runescape-Top100-Scraper"
 ];
 
