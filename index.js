@@ -1,7 +1,7 @@
 let titles = [
-  "React.js Breakfast Menu",
-  "UPC Nutrition",
-  "Web Scraper",
+  "React.js Breakfast Menu ",
+  "UPC Nutrition API DATA",
+  "Web Scraper for Runescape",
 ]
 
 let images = [
