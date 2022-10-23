@@ -1,18 +1,18 @@
 let titles = [
+  "Nutrition Facts API",
   "React.js Breakfast Menu ",
-  "UPC Nutrition API DATA",
   "Web Scraper for Runescape",
 ]
 
 let images = [
-  "./images/breakfast.png",
   "./images/typing-game.png",
+  "./images/breakfast.png",
   "./images/web-scraper.png",
 ];
 
 let links = [
-  "https://glrose.github.io/breakfast-picker/",
   "https://upc-nutrition-client.herokuapp.com/",
+  "https://glrose.github.io/breakfast-picker/",
   "https://github.com/GLRose/Runescape-Top100-Scraper"
 ];
 
