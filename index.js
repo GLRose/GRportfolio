@@ -13,7 +13,7 @@ let images = [
 let links = [
   "https://upc-nutrition-client.herokuapp.com/",
   "https://glrose.github.io/breakfast-picker/",
-  "https://github.com/GLRose/Runescape-Top100-Scraper"
+  "https://glrose.github.io/Top-100-Client/"
 ];
 
 var changeProjectTitles = document.getElementById("project-titles");
