@@ -86,7 +86,8 @@ body {
 
 @media (max-width: 810px) {
   .nav-bar {
-    justify-content: space-around;
+    justify-content: space-evenly;
+    gap: 0.5rem;
   }
   .nav-bar li {
     font-size: 3.6rem;
