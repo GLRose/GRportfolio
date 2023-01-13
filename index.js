@@ -11,7 +11,7 @@ let images = [
 ];
 
 let links = [
-  "https://upc-nutrition-client.herokuapp.com/",
+  "https://glrose.github.io/nutrition-facts-client/",
   "https://glrose.github.io/breakfast-picker/",
   "https://glrose.github.io/Top-100-Client/"
 ];
